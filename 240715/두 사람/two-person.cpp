@@ -10,13 +10,10 @@ int main() {
     cin >> a >> a1;
     cin >> b >> b1;
 
-    if (a >= 19 or b >= 19){
-        if (a1 == 'M' or b1 == 'M')
-            cout << 1;
-        else
-            cout << 0;
-    }
+    if ((a >= 19 and a1 == 'M') or (b >= 19 and b1 == 'M'))
+        cout << 1;
     else
         cout << 0;
+
     return 0;
 }
