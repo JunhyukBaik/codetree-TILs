@@ -6,8 +6,8 @@ int main() {
     int n;
     cin >> n;
 
-    for (int i = 4; i > 0; i--){
-        for (int j = 4; j > 0; j--)
+    for (int i = n; i > 0; i--){
+        for (int j = n; j > 0; j--)
             cout << j << ' ';
         cout << endl;
     }
