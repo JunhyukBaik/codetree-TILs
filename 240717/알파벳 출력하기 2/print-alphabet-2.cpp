@@ -15,7 +15,7 @@ int main() {
         for (int j = n; j > i; j--){
             cout << a << ' ';
             a = a + 1;
-            if (a == b)
+            if (a == b + 26)
                 a = b;
         }
         
