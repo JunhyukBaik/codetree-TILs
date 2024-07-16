@@ -10,7 +10,7 @@ int main() {
         for (int j = n-i; j > 0; j--)
             cout << '*';
 
-        for (int j = 0; j < i*2; j=j+1)
+        for (int j = 0; j < i*2; j++)
             cout << ' ';
 
         for (int j = n-i; j > 0; j--)
