@@ -10,7 +10,7 @@ int main() {
     int cnt = 1;
 
     while (1){
-        if (cnt == 5)
+        if (cnt == n)
             en = 1;
 
         if (en == 0){
