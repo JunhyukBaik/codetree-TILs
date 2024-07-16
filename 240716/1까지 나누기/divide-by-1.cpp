@@ -11,7 +11,7 @@ int main() {
     for (int i = 1; i; i++){
         n = n / i;
         cnt++;
-        if (n < 1)
+        if (n <= 1)
             break;
     }
 
