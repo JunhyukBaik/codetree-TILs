@@ -13,10 +13,10 @@ int main() {
             cnt++;
     }
 
-    if (cnt)
+    if (cnt == 5)
         cout << 1;
     else
         cout << 0;
-        
+
     return 0;
 }
