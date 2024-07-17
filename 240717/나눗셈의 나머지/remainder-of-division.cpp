@@ -12,7 +12,7 @@ int main() {
 
     int div;
 
-    while (a){
+    while (a > 1){
         div = a % b;
         v[div]++;
         a = a / b;
