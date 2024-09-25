@@ -19,7 +19,7 @@ for _ in range(n):
     else:
         for i in range(start, start-x, -1):
             tile[i] = 1
-        start = start - x
+        start = start - x+1
 
 
 for i in range(200001):
